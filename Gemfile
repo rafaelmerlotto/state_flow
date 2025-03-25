@@ -60,3 +60,15 @@ group :test do
 end
 
 gem "jsbundling-rails", "~> 1.3"
+
+gem "spring", "~> 4.3"
+
+gem "guard", "~> 2.19"
+
+gem "guard-livereload", "~> 2.5"
+
+
+gem 'aasm'
+gem 'blazer'
+gem 'cssbundling-rails'
+gem 'sassc'
