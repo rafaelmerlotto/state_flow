@@ -34,6 +34,12 @@ data_sources:
 
 # create audits
 audit: true
+checks: true
+query_history: true
+edit_schema: true
+allow_create: true
+allow_update: true
+allow_delete: true
 
 # change the time zone
 # time_zone: "Pacific Time (US & Canada)"
@@ -60,7 +66,6 @@ check_schedules:
   - "1 day"
   - "1 hour"
   - "5 minutes"
-
 # enable anomaly detection
 # note: with trend, time series are sent to https://trendapi.org
 # anomaly_checks: prophet / trend / anomaly_detection
